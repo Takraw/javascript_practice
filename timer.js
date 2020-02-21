@@ -1,3 +1,4 @@
+
 var goTimer = function(){
     var now = new Date();
     var milli = now.getTime() - start.getTime();
@@ -13,3 +14,5 @@ var goTimer = function(){
     seconds = addZero(seconds);
     document.getElementById('timer').innerHTML = hours + ':' + minutes + ':' + seconds;
 }
+
+alert("Hello");
